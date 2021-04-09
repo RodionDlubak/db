@@ -13,18 +13,18 @@
 
 ## Приклади роботи програми
 
-![scr1](./screenshots/1.jpg)
+![scr1](./screenshots/1.png)
 
-![scr2](./screenshots/2.jpg)
+![scr2](./screenshots/2.png)
 
-![scr3](./screenshots/3.jpg)
+![scr3](./screenshots/3.png)
 
-![scr4](./screenshots/4.jpg)
+![scr4](./screenshots/4.png)
 
-![scr5](./screenshots/5.jpg)
+![scr5](./screenshots/5.png)
 
-![scr6](./screenshots/6.jpg)
+![scr6](./screenshots/6.png)
 
-![scr7](./screenshots/7.jpg)
+![scr7](./screenshots/7.png)
 
-![scr8](./screenshots/8.jpg)
+![scr8](./screenshots/8.png)
