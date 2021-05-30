@@ -48,12 +48,12 @@ def top_senders(connection):
         print(index + 1, ". ", sender[0], " - ", int(sender[1]), "message(s)")
 
 
-def top_spamers(connection):
-    top_spamers_count = int(input("Enter count of top spamers: "))
-    spamers = connection.zrange("spam:", 0, top_spamers_count - 1, desc=True, withscores=True)
-    print("Top %s spamers" % top_spamers_count)
-    for index, spamer in enumerate(spamers):
-        print(index + 1, ". ", spamer[0], " - ", int(spamer[1]), " spammed message(s)")
+def top_spammers(connection):
+    top_spammers_count = int(input("Enter count of top spamers: "))
+    spammers = connection.zrange("spam:", 0, top_spamers_count - 1, desc=True, withscores=True)
+    print("Top %s spammers" % top_spamers_count)
+    for index, spammer in enumerate(spamers):
+        print(index + 1, ". ", spammer[0], " - ", int(spammer[1]), " spammed message(s)")
 
 
 def main():
@@ -73,7 +73,7 @@ def main():
             top_senders(connection)
 
         elif choice == 3:
-            top_spamers(connection)
+            top_spammers(connection)
 
         elif choice == 4:
             print("Exiting...")
